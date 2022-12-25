@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for diary in diary_list %}
+<p>
+    {{ diary.date }}
+    <a href="{% url 'diary:diary_detail' diary.pk %}">{{ diary.title }}</a>
+</p>
+{% endfor %}
+<a href="{% url 'diary:index' %}">戻る</a>
+</body>
+</html>

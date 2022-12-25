@@ -19,4 +19,5 @@ from django.urls import include, path # 追加：includeをimport
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('diary.urls')), # 追加：includeメソッドでurl設定を追加
+    path('account/', include('allauth.urls')),
 ]

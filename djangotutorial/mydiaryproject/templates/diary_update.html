@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MyDiaryApp</title>
+    <title>Title</title>
 </head>
 <body>
+<h1>日記の編集</h1>
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit">投稿</button>
+    <input type="submit" value="保存">
 </form>
 </body>
 </html>
