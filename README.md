@@ -1,3 +1,5 @@
+#Diary app
+
 git clone git@github.com:zhihao404/django-diary.git
 
 cd django-diary
@@ -5,8 +7,6 @@ cd django-diary
 cd djangotutorial 
 
 cd mydiaryproject
-——————————————————————
-仮想環境の起動
 
 python3 -m venv .djangoenv
 
