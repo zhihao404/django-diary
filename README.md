@@ -1,4 +1,6 @@
-#Diary app
+# Diary app
+
+### Please enter the following commands in the terminal
 
 git clone git@github.com:zhihao404/django-diary.git
 
