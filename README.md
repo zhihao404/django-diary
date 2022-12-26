@@ -18,4 +18,4 @@ pip install django-allauth
 
 python3 manage.py runserver
 
-http://127.0.0.1:8000/account/login/ にアクセス
+Please access the　http://127.0.0.1:8000/account/login/ 
